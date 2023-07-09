@@ -1,0 +1,2733 @@
+body {
+
+
+    overflow-x: hidden;
+    box-sizing: border-box;
+    zoom: 85%;
+}
+
+.whole {
+    display: flex;
+    max-height: 150vh;
+    overflow: hidden;
+
+
+    background-color: #F5F5F5;
+
+
+
+}
+
+.sidebar {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 15rem;
+    height: 48rem;
+    flex-shrink: 0;
+    border-radius: 1.875rem;
+    margin: 2rem;
+    padding-left: 3.12rem;
+    padding-top: 3rem;
+
+}
+
+.board {
+    color: #FFF;
+    font-family: lato;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.dashboard {
+
+
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    margin-bottom: 10%;
+}
+
+.dashboard a {
+    color: #FFF;
+    text-decoration: none;
+    margin: 1rem;
+    font-family: lato;
+    letter-spacing: 0.05rem;
+}
+
+.transactions {
+    font-size: 1.125rem;
+    font-style: normal;
+
+    line-height: normal;
+    text-decoration: none;
+    margin-bottom: 10%;
+}
+
+.transactions a {
+    color: #FFF;
+    text-decoration: none;
+    margin: 1rem;
+    font-family: lato;
+    letter-spacing: 0.05rem;
+}
+
+.schedule {
+    font-size: 1.125rem;
+    font-style: normal;
+    /*  font-weight: 100; */
+    line-height: normal;
+    text-decoration: none;
+    margin-bottom: 10%;
+}
+
+.schedule a {
+    color: #FFF;
+    text-decoration: none;
+    margin: 0.9rem;
+    font-family: lato;
+    letter-spacing: 0.05rem;
+}
+
+.user {
+    font-size: 1.125rem;
+    font-style: normal;
+    /*  font-weight: 100; */
+    line-height: normal;
+    text-decoration: none;
+    margin-bottom: 10%;
+}
+
+.user a {
+    color: #FFF;
+    text-decoration: none;
+    margin: 1rem;
+    font-family: lato;
+    letter-spacing: 0.05rem;
+}
+
+.setting {
+    font-size: 1.125rem;
+    font-style: normal;
+    /*  font-weight: 100; */
+    line-height: normal;
+    text-decoration: none;
+    margin-bottom: 140%;
+}
+
+.setting a {
+    color: #FFF;
+    text-decoration: none;
+    margin: 1rem;
+    font-family: lato;
+    letter-spacing: 0.05rem;
+}
+
+.help {
+    margin-bottom: 5%;
+}
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    font-size: 1.25rem;
+    width: 140rem;
+
+}
+
+#das {
+    margin-right: 40%;
+}
+
+
+.main_Card {
+    display: grid;
+    grid-template-columns: 0.22fr 0.22fr 0.22fr 0.22fr;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 6rem;
+
+    padding: 10px;
+    border-radius: 20px;
+    width: 10rem;
+    margin-top: 1.2rem;
+
+}
+
+.card_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 1rem;
+    color: #000;
+    font-family: Lato;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0.7rem;
+    margin-right: 2.6rem;
+
+
+}
+
+.svg1 {
+    padding-left: 7.5rem;
+    height: 20px;
+
+}
+
+
+#revenue {
+    background-color: #DDEFE0;
+    padding: 8px;
+}
+
+#transaction {
+    background-color: #F4ECDD;
+    padding: 8px;
+}
+
+#like {
+    background-color: #EFDADA;
+    padding: 8px;
+}
+
+#user {
+    background-color: #DEE0EF;
+    padding: 10px;
+}
+
+.span1 {
+    margin-top: 1rem;
+    color: #000;
+    font-family: lato;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+#trans {
+    margin-right: 3.7rem;
+
+}
+
+#users {
+    margin-right: 5rem;
+}
+
+#likes {
+    margin-right: 5rem;
+
+}
+
+#lik {
+    margin-right: 1rem;
+
+}
+
+#use {
+    margin-right: 1.5 rem;
+
+}
+
+.graph {
+    margin-top: 2rem;
+    width: 86rem;
+    height: 18rem;
+    border-radius: 20px;
+    padding-top: 2rem;
+
+
+    background-color: white
+}
+
+#acti {
+    margin-left: 2rem;
+    color: #000;
+    font-family: lato;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+
+
+
+}
+
+
+
+
+#line {
+    margin-top: 1.4rem;
+
+
+}
+
+#guest1 {
+    margin-left: 65rem;
+}
+
+#user1 {
+    margin-left: 3rem;
+}
+
+.may {
+    margin-left: 1.9rem;
+    margin-top: 0.7rem;
+    color: #858585;
+}
+
+.boxes {
+    display: flex;
+    margin-top: 2rem;
+
+}
+
+.piechart {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    width: 30rem;
+    height: 11.4rem;
+    padding-top: 1.3rem;
+
+
+    flex-shrink: 0;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 22rem;
+
+}
+
+.second {
+
+    width: 30rem;
+    height: 13rem;
+
+    flex-shrink: 0;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#product {
+    margin-left: 2rem;
+    color: #000;
+    font-family: lato;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 1rem;
+
+}
+
+#may1 {
+    margin-top: 0.5rem;
+    color: #858585;
+    margin-left: 4rem;
+
+}
+
+#arr {
+    margin-left: 0.5rem;
+}
+
+#pieImg {
+
+    height: 6rem;
+}
+
+.pieImg {
+    padding-left: 3rem;
+}
+
+
+
+
+
+#tees {
+    margin-left: 0.4rem;
+    color: #000;
+    font-family: lato;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#short {
+    margin-left: 0.5rem;
+    margin-left: 0.4rem;
+    color: #000;
+    font-family: lato;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+#hoodies {
+    margin-left: 0.5rem;
+    margin-left: 0.4rem;
+    color: #000;
+    font-family: lato;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.all {
+    margin-top: 0.2rem;
+}
+
+.h5 {
+    margin: 0rem;
+    color: #858585;
+}
+
+.second {
+    box-sizing: border-box;
+    padding: 1.5rem;
+    height: 12.5rem;
+    width: 28.5rem;
+    margin-left: 5rem;
+
+}
+
+#sche {
+    color: #000;
+    font-family: lato;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 8rem;
+}
+
+#left {
+    margin-left: .7rem;
+}
+
+.pieImg1 {
+    margin-top: 1rem;
+    display: flex;
+
+}
+
+#pieImg1 {
+
+
+
+
+    height: 3.7rem;
+}
+
+.meet {
+
+    width: 17rem;
+    margin-left: 0.6rem;
+
+}
+
+.meeting {
+    color: #666666;
+}
+
+.time {
+    color: #999999;
+}
+
+#pieImg2 {
+    display: none;
+    width: 55px;
+
+}
+
+/* .headroom {
+    will-change: transform;
+    transition: transform 200ms linear;
+}
+
+.headroom--pinned {
+    transform: translateY(0%);
+}
+
+.headroom--unpinned {
+    transform: translateY(-100%);
+} */
+
+
+@media screen and (max-width:400px) {
+    html {
+        font-size: 80%;
+    }
+
+    .rightside {
+        overflow-x: hidden;
+
+    }
+
+
+
+
+    .card_inner {
+        font-size: 1rem;
+    }
+
+
+
+    #navbar-container {
+        padding-right: 4rem;
+
+
+    }
+
+    .sidebar {
+        width: 4rem;
+        height: 60rem;
+        padding-left: 30px;
+        position: sticky;
+
+    }
+
+
+
+    #pieImg2 {
+        display: block;
+        position: relative;
+        right: 16px;
+
+    }
+
+    .board {
+        display: none;
+    }
+
+    .options a {
+        display: none;
+
+    }
+
+    .mini {
+        height: 100px;
+        margin-top: 15px;
+        width: 30px;
+        position: relative;
+        right: 4px;
+    }
+
+    #das {
+        display: none;
+    }
+
+
+
+    .main_Card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    .graph {
+        width: 27.3rem;
+        height: 22rem;
+
+        padding-bottom: 2rem;
+
+
+    }
+
+
+
+    #line1 {
+
+        position: relative;
+        right: 14px;
+    }
+
+    #guest1 {
+        /*  position: absolute;
+        right: 30px; */
+
+        margin-left: 50px;
+        margin-top: 5px;
+
+    }
+
+
+    #user1 {
+
+        margin-right: 30px;
+        margin-top: 4px;
+    }
+
+    #line {
+        padding-right: 30px;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .piechart {
+        width: 27.2rem;
+        margin-bottom: 2rem;
+
+
+    }
+
+    .second {
+        position: relative;
+        height: 10rem;
+        right: 56px;
+        width: 27.2rem;
+        overflow-y: scroll;
+        margin-bottom: 45rem;
+
+    }
+}
+
+
+
+@media screen and (max-width:365px) {
+    html {
+        font-size: 80%;
+    }
+
+    .rightside {
+        overflow-x: hidden;
+
+
+    }
+
+
+
+
+    .card_inner {
+        font-size: 1rem;
+    }
+
+
+
+
+
+    .sidebar {
+        width: 4rem;
+        height: 60rem;
+        padding-left: 30px;
+        position: sticky;
+
+    }
+
+
+
+    #pieImg2 {
+        display: block;
+        position: relative;
+        right: 16px;
+
+    }
+
+    .board {
+        display: none;
+    }
+
+    .options a {
+        display: none;
+
+    }
+
+    .mini {
+        height: 100px;
+        margin-top: 15px;
+        width: 30px;
+        position: relative;
+        right: 4px;
+    }
+
+    #das {
+        display: none;
+    }
+
+
+    .main_Card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    .graph {
+        width: 94%;
+        height: 22rem;
+        margin-right: 1rem;
+
+        padding-bottom: 2rem;
+
+
+    }
+
+
+
+    #line1 {
+
+        position: relative;
+        right: 14px;
+    }
+
+    #guest1 {
+        /*  position: absolute;
+        right: 30px; */
+
+        margin-left: 50px;
+        margin-top: 5px;
+
+    }
+
+
+    #user1 {
+
+        margin-right: 15px;
+        margin-top: 4px;
+    }
+
+    #line {
+        padding-right: 30px;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .piechart {
+        width: 25.2rem;
+        margin-bottom: 2rem;
+
+
+    }
+
+    .second {
+        position: relative;
+        height: 12rem;
+        right: 56px;
+        width: 25.2rem;
+
+        margin-bottom: 30rem;
+
+    }
+
+    #may1 {
+        margin-left: 1.2rem;
+    }
+
+    #sche {
+        margin-right: 4rem;
+    }
+
+    #trans {
+        margin-right: 3rem;
+    }
+
+    #likes {
+        margin-right: 4rem;
+        margin-top: 0.4rem;
+    }
+
+    #lik {
+        margin-right: 0rem;
+    }
+
+    #users {
+        margin-right: 2rem;
+        margin-top: 0.5rem;
+    }
+
+    #rev,
+    #tran {
+        margin-top: 0.3rem;
+    }
+
+    #tran {
+        margin-right: 2rem;
+    }
+}
+
+@media (min-width:401px)and (max-width:500px) {
+    html {
+        font-size: 80%;
+    }
+
+    .rightside {
+        overflow-x: hidden;
+
+    }
+
+    #header {
+        top: -100px;
+        transition: top 0.5s ease-in-out;
+    }
+
+    #header.sticky {
+        position: sticky;
+        top: 0;
+    }
+
+
+    .card_inner {
+        font-size: 1rem;
+    }
+
+
+
+
+    .sidebar {
+        width: 3rem;
+        height: 44rem;
+        padding-left: 30px;
+        position: sticky;
+
+    }
+
+
+
+    #pieImg2 {
+        display: block;
+        position: relative;
+        right: 16px;
+
+    }
+
+    .board {
+        display: none;
+    }
+
+    .options a {
+        display: none;
+
+    }
+
+    .mini {
+        height: 100px;
+        margin-top: 15px;
+        width: 30px;
+        position: relative;
+        right: 4px;
+    }
+
+    #das {
+        display: none;
+    }
+
+
+    .main_Card {
+        display: grid;
+        grid-template-columns: 0.9fr 0.9fr;
+        grid-gap: 10px;
+
+    }
+
+    .card {
+        width: 8rem;
+        padding: 4rem;
+    }
+
+    .card_inner {
+        margin-right: 0rem;
+
+    }
+
+    #trans {
+        margin-right: 3rem;
+    }
+
+    #likes {
+        margin-right: 0.4rem;
+        margin-top: 0.5rem;
+    }
+
+    #lik {
+        margin-right: 0rem;
+    }
+
+    #users {
+        margin-right: 2rem;
+        margin-top: 0.5rem;
+    }
+
+    #rev,
+    #tran {
+        margin-top: 0.5rem;
+    }
+
+
+    .svg1 {
+        padding-left: 6rem;
+    }
+
+
+    .graph {
+        width: 20.3rem;
+        height: 20rem;
+
+        padding-bottom: 2rem;
+
+
+    }
+
+    #acti {
+        margin-left: 1rem;
+    }
+
+
+    #line1 {
+
+        position: relative;
+        right: 14px;
+    }
+
+    #guest1 {
+        /*  position: absolute;
+        right: 30px; */
+
+        margin-left: 35px;
+        margin-top: 5px;
+
+    }
+
+
+    #user1 {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 4px;
+    }
+
+    #line {
+        padding-right: 30px;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .piechart {
+        width: 19.2rem;
+        margin-bottom: 2rem;
+        height: 14rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .pieImg {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    #may1 {
+        margin-left: 1rem;
+    }
+
+    .second {
+        position: relative;
+        height: 14rem;
+        right: 90px;
+        width: 20.8rem;
+
+        margin-bottom: 45rem;
+        padding: 1.5rem;
+        border-radius: 20px;
+
+
+    }
+
+    #sche {
+        margin-right: 2rem;
+    }
+}
+
+@media (min-width:501px)and (max-width:600px) {
+    html {
+        font-size: 80%;
+    }
+
+    .rightside {
+        overflow-x: hidden;
+
+    }
+
+
+
+    .card_inner {
+        font-size: 1rem;
+    }
+
+
+
+
+
+    .sidebar {
+        width: 3rem;
+        height: 44rem;
+        padding-left: 30px;
+        position: sticky;
+
+    }
+
+
+
+    #pieImg2 {
+        display: block;
+        position: relative;
+        right: 16px;
+
+    }
+
+    .board {
+        display: none;
+    }
+
+    .options a {
+        display: none;
+
+    }
+
+    .mini {
+        height: 100px;
+        margin-top: 15px;
+        width: 30px;
+        position: relative;
+        right: 4px;
+    }
+
+    #das {
+        display: none;
+    }
+
+
+    .main_Card {
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+        grid-gap: 10px;
+        width: 28rem;
+
+    }
+
+    .card {
+        width: 12rem;
+        padding: 4rem;
+    }
+
+    .card_inner {
+        margin-right: 0rem;
+
+    }
+
+    #trans {
+        margin-right: 3rem;
+    }
+
+    #likes {
+        margin-right: 5rem;
+        margin-top: 0.5rem;
+    }
+
+    #lik {
+        margin-right: 0rem;
+    }
+
+    #users {
+        margin-right: 6rem;
+        margin-top: 0.5rem;
+    }
+
+    #rev {
+        margin-right: 4rem;
+
+    }
+
+    #tran {
+        margin-right: 3.3rem;
+
+    }
+
+    #rev,
+    #tran {
+        margin-top: 0.5rem;
+    }
+
+
+    .svg1 {
+        padding-left: 9rem;
+    }
+
+
+    .graph {
+        width: 27.3rem;
+        height: 20rem;
+
+        padding-bottom: 2rem;
+
+
+    }
+
+    #acti {
+        margin-left: 1rem;
+    }
+
+
+    #line1 {
+
+        position: relative;
+        right: 14px;
+    }
+
+    #guest1 {
+        /*  position: absolute;
+    right: 30px; */
+
+        margin-left: 35px;
+        margin-top: 5px;
+
+    }
+
+
+    #user1 {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 4px;
+    }
+
+    #line {
+        padding-right: 30px;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .piechart {
+        width: 27.2rem;
+        margin-bottom: 2rem;
+        height: 14rem;
+
+        padding-bottom: 1rem;
+    }
+
+    .pieImg {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    #may1 {
+        margin-left: 1rem;
+    }
+
+    .second {
+        position: relative;
+        height: 14rem;
+        right: 80px;
+        width: 26.8rem;
+
+        margin-bottom: 34rem;
+        padding: 1.5rem;
+        border-radius: 20px;
+
+
+    }
+
+    #sche {
+        margin-right: 2rem;
+    }
+}
+
+@media (min-width:601px) and (max-width:700px) {
+    html {
+        font-size: 80%;
+    }
+
+
+    .rightside {
+        overflow-x: hidden;
+
+    }
+
+
+
+    .card_inner {
+        font-size: 1rem;
+    }
+
+
+
+
+
+    .sidebar {
+        width: 3rem;
+        height: 44rem;
+        padding-left: 30px;
+        position: sticky;
+
+    }
+
+
+
+    #pieImg2 {
+        display: block;
+        position: relative;
+        right: 16px;
+
+    }
+
+    .board {
+        display: none;
+    }
+
+    .options a {
+        display: none;
+
+    }
+
+    .mini {
+        height: 100px;
+        margin-top: 15px;
+        width: 30px;
+        position: relative;
+        right: 4px;
+    }
+
+    #das {
+        display: none;
+    }
+
+
+    .main_Card {
+        display: grid;
+        grid-template-columns: 3fr 3fr;
+        grid-gap: 11px;
+        width: 28rem;
+
+    }
+
+    .card {
+        width: 18rem;
+        padding: 4rem;
+    }
+
+    .card_inner {
+        margin-right: 0rem;
+
+    }
+
+    #trans {
+        margin-right: 3rem;
+    }
+
+    #likes {
+        margin-right: 12rem;
+        margin-top: 0.5rem;
+    }
+
+    #lik {
+        margin-right: 0rem;
+    }
+
+    #users {
+        margin-right: 12rem;
+        margin-top: 0.5rem;
+    }
+
+    #rev {
+        margin-right: 10rem;
+
+    }
+
+    #tran {
+        margin-right: 9rem;
+
+    }
+
+    #rev,
+    #tran {
+        margin-top: 0.5rem;
+    }
+
+
+    .svg1 {
+        padding-left: 15rem;
+        width: 2rem;
+    }
+
+
+    .graph {
+        width: 38.8rem;
+        height: 20rem;
+
+        padding-bottom: 2rem;
+
+
+    }
+
+    #acti {
+        margin-left: 1rem;
+    }
+
+
+    #line1 {
+
+        position: relative;
+        right: 14px;
+    }
+
+    #guest1 {
+        /*  position: absolute;
+    right: 30px; */
+
+        margin-left: 20rem;
+        margin-top: 5px;
+
+    }
+
+
+    #user1 {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 4px;
+    }
+
+    #line {
+        padding-right: 30px;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .piechart {
+        width: 38.5rem;
+        margin-bottom: 2rem;
+        height: 12rem;
+
+        padding-bottom: 1rem;
+    }
+
+    .pieImg {
+        padding-left: 2rem;
+        padding-right: 13rem;
+
+    }
+
+    #pieImg {
+        width: 7rem;
+        height: 8rem;
+    }
+
+    #may1 {
+        margin-left: 6rem;
+    }
+
+    .second {
+        position: relative;
+        height: 14rem;
+        right: 80px;
+        width: 38.4rem;
+
+        margin-bottom: 33rem;
+        padding: 1.5rem;
+        border-radius: 20px;
+
+
+    }
+
+    #sche {
+        margin-right: 19rem;
+    }
+
+    .all {
+        margin-right: 7rem;
+    }
+
+    .pieImg1 {
+        margin-top: 2rem
+    }
+}
+
+@media (min-width:701px) and (max-width:800px) {
+    html {
+        font-size: 80%;
+    }
+
+
+    .rightside {
+        overflow-x: hidden;
+
+    }
+
+
+
+    .card_inner {
+        font-size: 1rem;
+    }
+
+
+
+
+
+    .sidebar {
+        margin-right: 4rem;
+        margin-left: 2.8rem;
+        width: 3rem;
+        height: 42rem;
+        padding-left: 30px;
+        position: sticky;
+
+    }
+
+
+
+    #pieImg2 {
+        display: block;
+        position: relative;
+        right: 16px;
+
+    }
+
+    .board {
+        display: none;
+    }
+
+    .options a {
+        display: none;
+
+    }
+
+    .mini {
+        height: 100px;
+        margin-top: 15px;
+        width: 30px;
+        position: relative;
+        right: 4px;
+    }
+
+    #das {
+        display: none;
+    }
+
+
+    .main_Card {
+        display: grid;
+        grid-template-columns: 0.99fr 0.99fr;
+        grid-gap: 20px;
+    }
+
+    .card {
+        width: 19rem;
+        padding: 4rem;
+    }
+
+    .card_inner {
+        margin-right: 0rem;
+
+    }
+
+    #trans {
+        margin-right: 3rem;
+    }
+
+    #likes {
+        margin-right: 12rem;
+        margin-top: 0.5rem;
+    }
+
+    #lik {
+        margin-right: 0rem;
+    }
+
+    #users {
+        margin-right: 12rem;
+        margin-top: 0.5rem;
+    }
+
+    #rev {
+        margin-right: 10rem;
+
+    }
+
+    #tran {
+        margin-right: 9rem;
+
+    }
+
+    #rev,
+    #tran {
+        margin-top: 0.5rem;
+    }
+
+
+    .svg1 {
+        padding-left: 15rem;
+        width: 2rem;
+    }
+
+
+    .graph {
+        width: 43.8rem;
+        height: 20rem;
+
+        padding-bottom: 2rem;
+
+
+    }
+
+    #acti {
+        margin-left: 2rem;
+    }
+
+
+    #line1 {
+
+        position: relative;
+        right: 14px;
+    }
+
+    #guest1 {
+        /*  position: absolute;
+    right: 30px; */
+
+        margin-left: 25rem;
+        margin-top: 5px;
+
+    }
+
+
+    #user1 {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 4px;
+    }
+
+    #line {
+        padding-right: 30px;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .piechart {
+        width: 43.8rem;
+        margin-bottom: 2rem;
+        height: 14rem;
+
+        padding-bottom: 1rem;
+    }
+
+    .pieImg {
+        padding-left: 2rem;
+        padding-right: 14rem;
+
+    }
+
+    #pieImg {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .green1 {
+        margin-bottom: 0.5rem;
+    }
+
+    .yellow1 {
+        margin-bottom: 0.5rem;
+    }
+
+    #may1 {
+        margin-left: 7rem;
+    }
+
+    .second {
+        position: relative;
+        height: 15rem;
+        right: 80px;
+        width: 43.7rem;
+
+        margin-bottom: 22rem;
+        padding: 1.5rem;
+        border-radius: 20px;
+
+
+    }
+
+    #sche {
+        margin-right: 19rem;
+    }
+
+    .all {
+        margin-right: 1rem;
+        padding-left: 2rem;
+    }
+
+    .pieImg1 {
+        margin-top: 2rem
+    }
+}
+
+
+@media (min-width:801px) and (max-width:900px) {
+    html {
+        font-size: 80%;
+    }
+
+
+
+    .rightside {
+        overflow: hidden;
+
+
+    }
+
+
+
+    .card_inner {
+        font-size: 1rem;
+    }
+
+
+
+
+
+    .sidebar {
+        margin-right: 4rem;
+        margin-left: 2.8rem;
+        width: 3rem;
+        height: 47.3rem;
+        padding-left: 30px;
+        position: sticky;
+
+    }
+
+
+
+    #pieImg2 {
+        display: block;
+        position: relative;
+        right: 16px;
+
+    }
+
+    .board {
+        display: none;
+    }
+
+    .options a {
+        display: none;
+
+    }
+
+    .mini {
+        height: 100px;
+        margin-top: 15px;
+        width: 30px;
+        position: relative;
+        right: 4px;
+    }
+
+    #das {
+        display: none;
+    }
+
+
+    .main_Card {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 2.3em;
+    }
+
+    .card {
+        width: 10rem;
+        padding: 4rem;
+        margin: 0.4rem;
+        margin-top: 2rem;
+
+    }
+
+
+    .card_inner {
+        margin-right: 0rem;
+
+    }
+
+    #trans {
+        margin-right: 0rem;
+    }
+
+    #likes {
+
+        margin-top: 0.5rem;
+    }
+
+    #lik {
+        margin-right: 0rem;
+    }
+
+    #users {
+
+        margin-top: 0.5rem;
+    }
+
+    #rev {
+        margin-right: 2.4rem;
+
+    }
+
+    #tran {
+        margin-right: 2rem;
+
+    }
+
+    #rev,
+    #tran {
+        margin-top: 0.5rem;
+    }
+
+
+    .svg1 {
+        padding-left: 15rem;
+        width: 2rem;
+    }
+
+
+    .graph {
+        width: 50.8rem;
+        height: 20rem;
+
+        padding-bottom: 2rem;
+
+
+    }
+
+    #acti {
+        margin-left: 2rem;
+    }
+
+
+    #line1 {
+
+        position: relative;
+        right: 14px;
+    }
+
+    #guest1 {
+        /*  position: absolute;
+    right: 30px; */
+
+        margin-left: 29rem;
+        margin-top: 5px;
+
+    }
+
+
+    #user1 {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 4px;
+    }
+
+    #line {
+        padding-right: 30px;
+    }
+
+    .boxes {
+        display: flex;
+
+
+    }
+
+    .piechart {
+        width: 22.8rem;
+        margin-bottom: 2rem;
+        height: 12rem;
+
+        padding-bottom: 1rem;
+
+    }
+
+    .pieImg {
+        padding-left: 2rem;
+
+
+    }
+
+    #pieImg {
+        width: 6rem;
+        height: 6rem;
+        margin-top: 2rem;
+    }
+
+
+
+    #may1 {
+        margin-left: 1rem;
+    }
+
+    .second {
+        position: relative;
+        height: 14rem;
+        right: 21.9rem;
+        width: 22.6rem;
+
+        margin-bottom: 22rem;
+        padding: 1.5rem;
+        border-radius: 20px;
+
+
+    }
+
+    #sche {
+        margin-right: 2rem;
+    }
+
+    .all {
+        margin-right: 1rem;
+
+    }
+
+    .pieImg1 {
+        margin-top: 2rem
+    }
+}
+
+@media (min-width:901px) and (max-width:1000px) {
+    html {
+        font-size: 80%;
+    }
+
+
+
+
+    .rightside {
+        overflow: hidden;
+
+
+    }
+
+
+
+    .card_inner {
+        font-size: 1rem;
+    }
+
+
+
+
+
+    .sidebar {
+        margin-right: 4rem;
+        margin-left: 2.8rem;
+        width: 3rem;
+        height: 47.3rem;
+        padding-left: 30px;
+        position: sticky;
+
+    }
+
+
+
+    #pieImg2 {
+        display: block;
+        position: relative;
+        right: 16px;
+
+    }
+
+    .board {
+        display: none;
+    }
+
+    .options a {
+        display: none;
+
+    }
+
+    .mini {
+        height: 100px;
+        margin-top: 15px;
+        width: 30px;
+        position: relative;
+        right: 4px;
+    }
+
+    #das {
+        display: none;
+    }
+
+
+    .main_Card {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 2.3em;
+    }
+
+    .card {
+        width: 10rem;
+        padding: 4rem;
+        margin: 0.4rem;
+        margin-top: 2rem;
+
+    }
+
+
+    .card_inner {
+        margin-right: 0rem;
+
+    }
+
+    #trans {
+        margin-right: 0rem;
+    }
+
+    #likes {
+
+        margin-top: 0.5rem;
+    }
+
+    #lik {
+        margin-right: 0rem;
+    }
+
+    #users {
+
+        margin-top: 0.5rem;
+    }
+
+    #rev {
+        margin-right: 2.4rem;
+
+    }
+
+    #tran {
+        margin-right: 2rem;
+
+    }
+
+    #rev,
+    #tran {
+        margin-top: 0.5rem;
+    }
+
+
+    .svg1 {
+        padding-left: 15rem;
+        width: 2rem;
+    }
+
+
+    .graph {
+        width: 58.8rem;
+        height: 20rem;
+
+        padding-bottom: 2rem;
+
+
+    }
+
+    #acti {
+        margin-left: 2rem;
+    }
+
+
+    #line1 {
+
+        position: relative;
+        right: 14px;
+    }
+
+    #guest1 {
+        /*  position: absolute;
+    right: 30px; */
+
+        margin-left: 29rem;
+        margin-top: 5px;
+
+    }
+
+
+    #user1 {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 4px;
+    }
+
+    #line {
+        padding-right: 30px;
+    }
+
+    .boxes {
+        display: flex;
+
+
+    }
+
+    .piechart {
+        width: 22.8rem;
+        margin-bottom: 2rem;
+        height: 12rem;
+
+        padding-bottom: 1rem;
+
+    }
+
+    .pieImg {
+        padding-left: 2rem;
+
+
+    }
+
+    #pieImg {
+        width: 6rem;
+        height: 6rem;
+        margin-top: 2rem;
+    }
+
+
+
+    #may1 {
+        margin-left: 1rem;
+    }
+
+    .second {
+        position: relative;
+        height: 14rem;
+        right: 13.9rem;
+        width: 22.6rem;
+
+        margin-bottom: 22rem;
+        padding: 1.5rem;
+        border-radius: 20px;
+
+
+    }
+
+    #sche {
+        margin-right: 2rem;
+    }
+
+    .all {
+        margin-right: 1rem;
+
+    }
+
+    .pieImg1 {
+        margin-top: 2rem
+    }
+}
+
+
+
+@media (min-width:1001px) and (max-width:1200px) {
+
+    html {
+        font-size: 80%;
+    }
+
+
+
+    .rightside {
+        overflow: hidden;
+
+
+    }
+
+
+
+    .card_inner {
+        font-size: 1rem;
+    }
+
+
+
+
+
+    .sidebar {
+        margin-right: 4rem;
+        margin-left: 2.8rem;
+        width: 3rem;
+        height: 47.3rem;
+        padding-left: 30px;
+        position: sticky;
+
+    }
+
+
+
+    #pieImg2 {
+        display: block;
+        position: relative;
+        right: 16px;
+
+    }
+
+    .board {
+        display: none;
+    }
+
+    .options a {
+        display: none;
+
+    }
+
+    .mini {
+        height: 100px;
+        margin-top: 15px;
+        width: 30px;
+        position: relative;
+        right: 4px;
+    }
+
+    #das {
+        display: none;
+    }
+
+
+    .main_Card {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 2.3em;
+    }
+
+    .card {
+        width: 10rem;
+        padding: 4rem;
+        margin: 0.4rem;
+        margin-top: 2rem;
+
+    }
+
+
+    .card_inner {
+        margin-right: 0rem;
+
+    }
+
+    #trans {
+        margin-right: 0rem;
+    }
+
+    #likes {
+
+        margin-top: 0.5rem;
+    }
+
+    #lik {
+        margin-right: 0rem;
+    }
+
+    #users {
+
+        margin-top: 0.5rem;
+    }
+
+    #rev {
+        margin-right: 2.4rem;
+
+    }
+
+    #tran {
+        margin-right: 2rem;
+
+    }
+
+    #rev,
+    #tran {
+        margin-top: 0.5rem;
+    }
+
+
+    .svg1 {
+        padding-left: 8rem;
+        width: 2rem;
+    }
+
+
+    .graph {
+        width: 73.8rem;
+        height: 20rem;
+
+        padding-bottom: 2rem;
+
+
+    }
+
+    #acti {
+        margin-left: 2rem;
+    }
+
+
+    #line1 {
+
+        position: relative;
+        right: 14px;
+    }
+
+    #guest1 {
+        /*  position: absolute;
+    right: 30px; */
+
+        margin-left: 29rem;
+        margin-top: 5px;
+
+    }
+
+
+    #user1 {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 4px;
+    }
+
+    #line {
+        padding-right: 30px;
+    }
+
+    .boxes {
+        display: flex;
+
+
+    }
+
+    .piechart {
+        width: 22.8rem;
+        margin-bottom: 2rem;
+        height: 12rem;
+
+        padding-bottom: 1rem;
+
+    }
+
+    .pieImg {
+        padding-left: 2rem;
+
+
+    }
+
+    #pieImg {
+        width: 6rem;
+        height: 6rem;
+        margin-top: 2rem;
+    }
+
+
+
+    #may1 {
+        margin-left: 1rem;
+    }
+
+    .second {
+        position: relative;
+        height: 14rem;
+        left: 1.5rem;
+        width: 22.6rem;
+
+        margin-bottom: 22rem;
+        padding: 1.5rem;
+        border-radius: 20px;
+
+
+    }
+
+    #sche {
+        margin-right: 2rem;
+    }
+
+    .all {
+        margin-right: 1rem;
+
+    }
+
+    .pieImg1 {
+        margin-top: 2rem
+    }
+}
+
+@media (min-width:1201px) and (max-width:1380px) {
+
+    .html {
+        font-size: 80%;
+    }
+
+    .sidebar {
+        background-color: black;
+        color: white;
+        display: inline-block;
+        width: 15rem;
+        height: 48rem;
+        flex-shrink: 0;
+        border-radius: 1.875rem;
+        margin: 2rem;
+        padding-left: 3.12rem;
+        padding-top: 3rem;
+
+    }
+
+    .board {
+        color: #FFF;
+        font-family: lato;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .dashboard {
+
+
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-decoration: none;
+        margin-bottom: 10%;
+    }
+
+    .dashboard a {
+        color: #FFF;
+        text-decoration: none;
+        margin: 1rem;
+        font-family: lato;
+        letter-spacing: 0.05rem;
+    }
+
+    .transactions {
+        font-size: 1.125rem;
+        font-style: normal;
+
+        line-height: normal;
+        text-decoration: none;
+        margin-bottom: 10%;
+    }
+
+    .transactions a {
+        color: #FFF;
+        text-decoration: none;
+        margin: 1rem;
+        font-family: lato;
+        letter-spacing: 0.05rem;
+    }
+
+    .schedule {
+        font-size: 1.125rem;
+        font-style: normal;
+        /*  font-weight: 100; */
+        line-height: normal;
+        text-decoration: none;
+        margin-bottom: 10%;
+    }
+
+    .schedule a {
+        color: #FFF;
+        text-decoration: none;
+        margin: 0.9rem;
+        font-family: lato;
+        letter-spacing: 0.05rem;
+    }
+
+    .user {
+        font-size: 1.125rem;
+        font-style: normal;
+        /*  font-weight: 100; */
+        line-height: normal;
+        text-decoration: none;
+        margin-bottom: 10%;
+    }
+
+    .user a {
+        color: #FFF;
+        text-decoration: none;
+        margin: 1rem;
+        font-family: lato;
+        letter-spacing: 0.05rem;
+    }
+
+    .setting {
+        font-size: 1.125rem;
+        font-style: normal;
+        /*  font-weight: 100; */
+        line-height: normal;
+        text-decoration: none;
+        margin-bottom: 140%;
+    }
+
+    .setting a {
+        color: #FFF;
+        text-decoration: none;
+        margin: 1rem;
+        font-family: lato;
+        letter-spacing: 0.05rem;
+    }
+
+    .help {
+        margin-bottom: 5%;
+    }
+
+    .rightside {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+
+    }
+
+
+    #das {
+        margin-right: 30%;
+    }
+
+
+    .main_Card {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 25rem;
+
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 6rem;
+
+        padding: 10px;
+        border-radius: 20px;
+        width: 10rem;
+        margin-top: 1.2rem;
+
+    }
+
+    .card_inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-bottom: 1rem;
+        color: #000;
+        font-family: Lato;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 0.7rem;
+        margin-right: 2.6rem;
+
+
+    }
+
+    .svg1 {
+        padding-left: 7.5rem;
+        height: 20px;
+
+    }
+
+
+    #revenue {
+        background-color: #DDEFE0;
+        padding: 8px;
+    }
+
+    #transaction {
+        background-color: #F4ECDD;
+        padding: 8px;
+    }
+
+    #like {
+        background-color: #EFDADA;
+        padding: 8px;
+    }
+
+    #user {
+        background-color: #DEE0EF;
+        padding: 10px;
+    }
+
+    .span1 {
+        margin-top: 1rem;
+        color: #000;
+        font-family: lato;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+
+    #trans {
+        margin-right: 3.7rem;
+
+    }
+
+    #users {
+        margin-right: 5rem;
+    }
+
+    #likes {
+        margin-right: 5rem;
+
+    }
+
+    #lik {
+        margin-right: 1rem;
+
+    }
+
+    #use {
+        margin-right: 1.5 rem;
+
+    }
+
+    .graph {
+        margin-top: 2rem;
+        width: 72rem;
+        height: 18rem;
+        border-radius: 20px;
+        padding-top: 2rem;
+
+
+        background-color: white
+    }
+
+    #acti {
+        margin-left: 2rem;
+        color: #000;
+        font-family: lato;
+        font-size: 1.7rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+
+
+
+
+    }
+
+
+
+
+    #line {
+        margin-top: 1.4rem;
+
+
+    }
+
+    #guest1 {
+        margin-left: 50rem;
+    }
+
+    #user1 {
+        margin-left: 3rem;
+    }
+
+    .may {
+        margin-left: 1.9rem;
+        margin-top: 0.7rem;
+        color: #858585;
+    }
+
+    .boxes {
+        display: flex;
+        margin-top: 2rem;
+
+    }
+
+    .piechart {
+        display: grid;
+        grid-template-columns: 5fr 5fr;
+        width: 30rem;
+        height: 11.4rem;
+        padding-top: 1.3rem;
+
+
+        flex-shrink: 0;
+        background-color: white;
+        border-radius: 20px;
+        margin-right: 22rem;
+
+    }
+
+    .second {
+        position: relative;
+        right: 14rem;
+
+        width: 30rem;
+        height: 13rem;
+
+        flex-shrink: 0;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    #product {
+        margin-left: 2rem;
+        color: #000;
+        font-family: lato;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-right: 1rem;
+
+    }
+
+    #may1 {
+        margin-top: 0.5rem;
+        color: #858585;
+        margin-left: 4rem;
+
+    }
+
+    #arr {
+        margin-left: 0.5rem;
+    }
+
+    #pieImg {
+
+        height: 6rem;
+    }
+
+    .pieImg {
+        padding-left: 3rem;
+    }
+
+
+
+
+
+    #tees {
+        margin-left: 0.4rem;
+        color: #000;
+        font-family: lato;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    #short {
+        margin-left: 0.5rem;
+        margin-left: 0.4rem;
+        color: #000;
+        font-family: lato;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+
+    #hoodies {
+        margin-left: 0.5rem;
+        margin-left: 0.4rem;
+        color: #000;
+        font-family: lato;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+
+    .all {
+        margin-top: 0.2rem;
+    }
+
+    .h5 {
+        margin: 0rem;
+        color: #858585;
+    }
+
+    .second {
+        box-sizing: border-box;
+        padding: 1.5rem;
+        height: 12.5rem;
+        width: 28.5rem;
+        margin-left: 5rem;
+
+    }
+
+    #sche {
+        color: #000;
+        font-family: lato;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-right: 8rem;
+    }
+
+    #left {
+        margin-left: .7rem;
+    }
+
+    .pieImg1 {
+        margin-top: 1rem;
+        display: flex;
+
+    }
+
+    #pieImg1 {
+
+
+
+
+        height: 3.7rem;
+    }
+
+    .meet {
+
+        width: 17rem;
+        margin-left: 0.6rem;
+
+    }
+
+    .meeting {
+        color: #666666;
+    }
+
+    .time {
+        color: #999999;
+    }
+
+    #pieImg2 {
+        display: none;
+        width: 55px;
+
+    }
+
+
+
+}
